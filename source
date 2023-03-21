@@ -26,7 +26,7 @@ var Lobbies = {
     <RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
 			group="JsFriendsList-lobbies-toolbar-button-modegroup"
 			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
-			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'Gamesense');"
+			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'gamesense');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
 	    <Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"/>
     </RadioButton>`,
