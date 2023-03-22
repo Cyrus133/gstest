@@ -387,4 +387,4 @@ var FriendAdvertiseTile = (function () {
 
 })();
 
-Lobbies.Load()
+Lobbies.Load(
