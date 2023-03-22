@@ -28,7 +28,7 @@ var Lobbies = {
 			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
 			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'gamesense');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
-	    <Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"/>
+	    <Image src=""/>
     </RadioButton>`,
         FriendTile: `
         <root>
