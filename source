@@ -240,7 +240,7 @@ var Lobbies = {
             let items = []
             for (let i = 0; i < this.Modes.length; i++) {
                 const el = this.Modes[i]
-                let labelLoc = `<img src=""> Looking for ${el}`
+                let labelLoc = `<img src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"> Looking for ${el}`
 
                 items.push({ label: labelLoc, style: 'Icon', jsCallback: callbackFunction.bind(undefined, i) })
             }
