@@ -28,7 +28,6 @@ var Lobbies = {
 			<Image style="border-radius: 100%; background-color: #272726; width: 26px; height: 26px; padding: -6px -6px;" >
 			<Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="wash-color: #95b806; width: 19px; height: 19px;"/>
 			</Image>
-
 		</RadioButton>`,
 
         FriendTile: `
