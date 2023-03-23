@@ -10,26 +10,25 @@ var Lobbies = {
         Register: `
     <root>
         <styles>
-            <include src="file://{resources}/styles/csgostyles.css" />
-            <include src="file://{resources}/styles/advertising_toggle.css" />
-        </styles>
-    
-        <Panel class="btn_advertising" >
-            <Panel id="AimwareSearchWrapper" class="full-width vertical-center">
-                <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
-                    <Image clampfractionalpixelpositions="false" texturewidth="26" textureheight="26" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" />
-                </Button>
-            </Panel>
-        </Panel>
+		<include src="file://{resources}/styles/csgostyles.css" />
+		<include src="file://{resources}/styles/advertising_toggle.css" />
+	</styles>
+	<Panel class="btn_advertising MainMenuModeOnly">
+		<Panel id="HireAdvertisingToggleContainerGS" class="full-width vertical-center" >
+			<Button id="HireAdvertisingToggleGS" class="btn_advertising__toggle">
+			<Image id="HireAdvertisingToggleGSImage" class="btn_advertising__img-pole" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="width: 56px; height: 56px; border-radius: 50%; padding: 12px 12px;" />
+			</Button>
+		</Panel>
+	</Panel>
     </root>`,
         GetPlayers: `
-    <RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
+  <RadioButton id="JsFriendsList-lobbies-toolbar-button-gamesense"
 			group="JsFriendsList-lobbies-toolbar-button-modegroup"
-			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
-			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'gamesense');"
-			onmouseout="UiToolkitAPI.HideTextTooltip();">
-	    <Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"/>
-    </RadioButton>`,
+			class="IconButton friendslist-navbar-lobby-button">
+			<Image style="border-radius: 100%; background-color: #272726; width: 26px; height: 26px; padding: -6px -6px;" >
+			<Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="wash-color: #95b806; width: 19px; height: 19px;"/>
+			</Image>
+		</RadioButton>`,
         FriendTile: `
         <root>
         <styles>
