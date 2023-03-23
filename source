@@ -28,7 +28,7 @@ var Lobbies = {
 			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
 			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'gamesense');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
-	    <Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"/>
+	    <Image src=""/>
     </RadioButton>`,
         FriendTile: `
         <root>
@@ -145,7 +145,7 @@ var Lobbies = {
                         $.Msg("Error: " + err)
                         $.Msg(res)
                     }
-                    this.Token = (JSON.parse(res.responseText.slice(0,-1)).token)
+                    this.Token = (JSON.parse(res.responseText.slice(0, -1)).token)
                 }
             })
         },
