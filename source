@@ -1,4 +1,3 @@
-
 var HackeLobby = {
     Register: function () { $.Msg("If you see this redownload the lua! https://aimware.net/forum/thread/149882") },
     OnUnload: function () { $.Msg("If you see this redownload the lua! https://aimware.net/forum/thread/149882") }
