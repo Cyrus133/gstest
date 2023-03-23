@@ -14,7 +14,7 @@ var Lobbies = {
             <include src="file://{resources}/styles/advertising_toggle.css" />
         </styles>
     
-        <Panel class="btn_advertising" >
+ 	<Panel class="btn_advertising MainMenuModeOnly">
             <Panel id="AimwareSearchWrapper" class="full-width vertical-center">
                 <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
                     <Image clampfractionalpixelpositions="false" texturewidth="26" textureheight="26" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" />
@@ -28,8 +28,7 @@ var Lobbies = {
 			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
 			onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'gamesense');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
-	   			<Image style="border-radius: 100%; background-color: #272726; width: 26px; height: 26px; padding: -6px -6px;" >
-			<Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="wash-color: #95b806; width: 19px; height: 19px;"/>
+	    <Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png"/>
     </RadioButton>`,
         FriendTile: `
         <root>
