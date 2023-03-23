@@ -22,9 +22,9 @@ var Lobbies = {
 	</Panel>
     </root>`,
         GetPlayers: `
-  <RadioButton id="JsFriendsList-lobbies-toolbar-button-gamesense"
+RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
 			group="JsFriendsList-lobbies-toolbar-button-modegroup"
-			class="IconButton friendslist-navbar-lobby-button">
+			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
             onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'game&lt;font color='#95b806'&gt;sense&lt;/font&gt');"
 			onmouseout="UiToolkitAPI.HideTextTooltip();">
 			<Image style="border-radius: 100%; background-color: #272726; width: 26px; height: 26px; padding: -6px -6px;" >
