@@ -14,13 +14,10 @@ var Lobbies = {
             <include src="file://{resources}/styles/advertising_toggle.css" />
         </styles>
     
-        <Panel class="btn_advertising" >
-          
+    
                 <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
                     <Image clampfractionalpixelpositions="false" texturewidth="26" textureheight="26" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" />
-                </Button>
-      
-        </Panel>
+                
     </root>`,
         GetPlayers: `
     <RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
