@@ -22,11 +22,9 @@ var Lobbies = {
 	</Panel>
     </root>`,
         GetPlayers: `
-RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
+  <RadioButton id="JsFriendsList-lobbies-toolbar-button-gamesense"
 			group="JsFriendsList-lobbies-toolbar-button-modegroup"
-			class="IconButton friendslist-navbar-lobby-button aimware-lobbies" onactivate="friendsList.SetLobbiesTabListFilters( 'fsdf' );"
-            onmouseover="UiToolkitAPI.ShowTextTooltip('JsFriendsList-lobbies-toolbar-button-aimware', 'game&lt;font color='#95b806'&gt;sense&lt;/font&gt');"
-			onmouseout="UiToolkitAPI.HideTextTooltip();">
+			class="IconButton friendslist-navbar-lobby-button">
 			<Image style="border-radius: 100%; background-color: #272726; width: 26px; height: 26px; padding: -6px -6px;" >
 			<Image src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="wash-color: #95b806; width: 19px; height: 19px;"/>
             
