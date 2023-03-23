@@ -8,19 +8,20 @@ var dev = false
 var Lobbies = {
     Buttons: {
         Register: `
-<root>
-	<styles>
-		<include src="file://{resources}/styles/csgostyles.css" />
-		<include src="file://{resources}/styles/advertising_toggle.css" />
-	</styles>
-	<Panel class="btn_advertising MainMenuModeOnly">
-		<Panel id="HireAdvertisingToggleContainerGS" class="full-width vertical-center" >
-			<Button id="HireAdvertisingToggleGS" class="btn_advertising__toggle">
-			<Image id="HireAdvertisingToggleGSImage" class="btn_advertising__img-pole" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" style="width: 56px; height: 56px; border-radius: 50%; padding: 12px 12px;" />
-			</Button>
-		</Panel>
-	</Panel>
-</root>,
+    <root>
+         <styles>
+            <include src="file://{resources}/styles/csgostyles.css" />
+            <include src="file://{resources}/styles/advertising_toggle.css" />
+        </styles>
+
+        <Panel class="btn_advertising" >
+            <Panel id="AimwareSearchWrapper" class="full-width vertical-center">
+                <Button id="AimwareSearch" class="" onactivate="" style="horizontal-align: center;vertical-align: center;">
+                    <Image clampfractionalpixelpositions="false" texturewidth="26" textureheight="26" src="https://raw.githubusercontent.com/Karechta/looking_for_gs/master/gs.png" />
+                </Button>
+            </Panel>
+        </Panel>
+    </root>`,
         GetPlayers: `
     <RadioButton id="JsFriendsList-lobbies-toolbar-button-aimware"
 			group="JsFriendsList-lobbies-toolbar-button-modegroup"
